@@ -15,7 +15,17 @@
     },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.bernat.HelloWorld"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.bernat.HelloWorld"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.bernat.HelloWorld"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.bernat.HelloWorld"
+    }
+  }
 }

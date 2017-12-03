@@ -11,7 +11,16 @@
     <feature name="Camera">
         <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
     </feature>
-    <name>Camera BCV</name>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Badge">
+        <param name="android-package" value="de.appplant.cordova.plugin.badge.Badge" />
+    </feature>
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <name>Bernat Castells NOTIFICATIONS</name>
     <description>
         Bernat Castells Vila
     </description>
@@ -29,5 +38,6 @@
     <allow-intent href="market:*" />
     <splash density="land-hdpi" src="res/screen/android/splash.png" />
     <splash density="port-hdpi" src="res/screen/android/splash.png" />
+    <icon density="ldpi" src="res/icon/android/iconobcv.png" />
     <preference name="loglevel" value="DEBUG" />
 </widget>

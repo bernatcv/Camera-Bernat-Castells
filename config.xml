@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.bernat.HelloWorld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Camera BCV</name>
+    <name>Bernat Castells NOTIFICATIONS</name>
     <description>
         Bernat Castells Vila
     </description>
@@ -19,6 +19,7 @@
         <allow-intent href="market:*" />
         <splash density="land-hdpi" src="res/screen/android/splash.png" />
         <splash density="port-hdpi" src="res/screen/android/splash.png" />
+        <icon density="ldpi" src="res/icon/android/iconobcv.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -28,4 +29,5 @@
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-splashscreen" spec="git+https://github.com/apache/cordova-plugin-splashscreen.git" />
     <plugin name="cordova-plugin-camera" spec="^3.0.0" />
+    <plugin name="cordova-plugin-local-notification" spec="^0.9.0-beta.1" />
 </widget>

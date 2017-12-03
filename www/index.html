@@ -12,105 +12,75 @@
 
 <!--PAGINA HOME-->
 <div data-role="page" id="home">
+    
   <div data-role="panel" id="myPanel"> 
-    <h2>Camera</h2>
-      <button onclick="camera()"><a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-left">Take picture</a></button>
-      <button><a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-left">Save picture</a></button>
-      <button><a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-left">Show pictures</a></button>
+    <h2>NOTIFICATION CENTER</h2>
+      <button class="ui-btn ui-icon-calendar ui-btn-icon-left" id="gotoPageTwo">Set Notification</button>
+        <input type="button" value="Delete" id="delete_button">
+        <input type="button" value="insert" id="insert_button">
+
   </div> 
+    
   <div data-role="header">
-    <h1>Assignment 2</h1>
-	<a href="#home" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+    <h1>Assignment 3</h1>
+       <a href="#home" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
   </div>
   <div data-role="main" class="ui-content">
-    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Menu Camera</a>
-	<center style="color: orange;"><h3>Welcome to my camera App</h3></center>
+      
+      
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open panel</a>
+    
+	<center style="color: orange;"><h3>Welcome to my notification App</h3></center>
   </div>
   <div data-role="footer">
     <h1>Bernat Castells</h1>
   </div> 
 </div> 
 
-
-<!--PAGINA TAKE A PICTURE-->
-<div data-role="page" id="pageone">
-  <div data-role="panel" id="myPanel"> 
-    <h2>Camera</h2>
-      <button onclick="camera()"><a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-left">Take picture</a></button>
-      <button><a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-left">Save picture</a></button>
-      <button><a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-left">Show pictures</a></button>
-  </div> 
-  <div data-role="header">
-    <h1>Assignment 2</h1>
-	<a href="#home" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
-  </div>
-  <div data-role="main" class="ui-content">
-    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Menu Camera</a>
-	<p><center>Your picture:</center></p>
-      <center>><img src="" alt="myfoto" width="100%" height="100%" id="myImage"></center>
-  </div>
-  <div data-role="footer">
-    <h1>Bernat Castells</h1>
-  </div> 
-</div> 
-
-
-<!--PAGINA SAVE A PICTURE-->
+    <!--PAGINA set notification-->
 <div data-role="page" id="pagetwo">
-
   <div data-role="panel" id="myPanel"> 
-    <h2>Camera</h2>
-<button onclick="camera()"><a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-left">Take picture</a></button>
-<button><a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-left">Save picture</a></button>
-<button><a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-left">Show pictures</a></button>
-  </div> 
-  
-  <div data-role="header">
-  <a href="#home" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
-    <h1>Assignment 2</h1>
-  </div>
-  <div data-role="main" class="ui-content">
-    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Menu Camera</a>
-      
-      
-      
-	<a href="#myPopup" data-rel="popup" class="ui-btn ui-icon-action ui-btn-inline ui-corner-all" style="background: lightblue; color: black;">Save Image</a>
-    <div data-role="popup" id="myPopup" class="ui-content" data-overlay-theme="b">
-      <h4><p>Image saved succesfully!</p></h4>
-    </div>
-  </div>
-  
-  
-  <div data-role="footer">
-    <h1>Bernat Castells</h1>
-  </div> 
-  </div>
+    <h2>NOTIFACTION CENTER</h2>
+<button class="ui-btn ui-icon-calendar ui-btn-icon-left" id="gotoPagetwo">Set notification</button>
+                <input type="button" value="Delete" id="delete_button">
+       <input type="button" value="insert" id="insert_button">
 
-
-
-<!--PAGINA SHOW GALLERY-->
-<div data-role="page" id="pagethree">
-  <div data-role="panel" id="myPanel"> 
-    <h2>Camera</h2>
-<button onclick="camera()"><a href="#pageone" class="ui-btn ui-icon-camera ui-btn-icon-left">Take picture</a></button>
-<button><a href="#pagetwo" class="ui-btn ui-icon-action ui-btn-icon-left">Save picture</a></button>
-<button><a href="#pagethree" class="ui-btn ui-icon-grid ui-btn-icon-left">Show pictures</a></button> 
   </div> 
   <div data-role="header">
-  <a href="#home" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
-    <h1>Assignment 2</h1>
+    <h1>Assignment 3</h1>
+            
+<a href="#home" class="ui-btn ui-btn-b ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+      
+      <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open panel</a>
+	
   </div>
   <div data-role="main" class="ui-content">
-    <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Menu Camera</a>
-	<p><center>GALLERY</center></p>
+    <h4>Set your notification:</h4>
+      <form>
+     <label for="date-1">Date time:  "</label>
+     <input type="datetime-local" name="date-1" id="date-1" value="">
+          <label for="text-basic">Description:</label>
+          <input type="text" name="text-basic" id="description" value="">
+          <button class="ui-btn ui-shadow" style="background-color:skyblue;" id="submit">Submit</button>
+          <input type="button" value="Load List" id="loadListButt">
+          </form>
+          <ul data-role="listview" id="myList">
+
+            </ul>
+          
+
+
+	
   </div>
   <div data-role="footer">
     <h1>Bernat Castells</h1>
   </div> 
-</div>
+</div> 
+
+
 
 <script type= "text/javascript" src="cordova.js"></script>
     <script type= "text/javascript" src="js/index.js"></script>
-    <script type= "text/javascript" src="js/myfunctions.js"></script>
+    <script type= "text/javascript" src="js/functions.js"></script>
 </body>
 </html>
